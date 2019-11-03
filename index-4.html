@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	
-	<title>AboutMe - Personal Portfolio Resume Template</title>
+	<title>AboutMe - Personal Portfolio Resume Template</title>	
 	<!-- set your website meta description and keywords -->
 	<meta name="description" content="Add your business website description here">
 	<meta name="keywords" content="Add your business website keywords here">
@@ -45,7 +45,7 @@
 									<span class="icon-bar middle-bar"></span>
 									<span class="icon-bar bottom-bar"></span>
 								</button>
-								<a class="navbar-brand" href="index.html">
+								<a class="navbar-brand" href="index-2.html">
 									<img class="logo logo-white" src="images/logo.png" alt="logo">
 									<img class="logo logo-color" src="images/logo-color.png" alt="logo">
 								</a>
@@ -70,70 +70,48 @@
 	<!-- end Header -->
 	
 	<!-- start slider and home section -->
-	<section id="home" class="home video-bg" data-vide-bg="media/dvideo-1" data-vide-options="position: 50% 50%">
-        <div class="home-top-banner background-transparent">
-            <div class="display-table">
-                <div class="display-table-cell">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-								<div class="banner-content banner-content-fullwidth">
-									<h3>Hi, I'm</h3>
-									<h1 class="header-title-text type-animate">
-										<a href="" class="typewrite" data-period="2000" data-type='[ "Emma Jones", "Proffessional", "Creative Director", "From United States" ]'>
-										<span class="wrap"></span>
-										</a>&nbsp;
-									</h1>
-									<ul class="list-inline list-social">
-										<li>
-											<a href="#" class="social-icon social-icon-facebook">
-												<i class="fa fa-facebook"></i>
-												<i class="fa fa-facebook"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="social-icon social-icon-twitter">
-												<i class="fa fa-twitter"></i>
-												<i class="fa fa-twitter"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="social-icon social-icon-gplus">
-												<i class="fa fa-google-plus"></i>
-												<i class="fa fa-google-plus"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="social-icon social-icon-vimeo">
-												<i class="fa fa-vimeo"></i>
-												<i class="fa fa-vimeo"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="social-icon social-icon-pinterest">
-												<i class="fa fa-pinterest"></i>
-												<i class="fa fa-pinterest"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="social-icon social-icon-linkedin">
-												<i class="fa fa-linkedin"></i>
-												<i class="fa fa-linkedin"></i>
-											</a>
-										</li>
-									</ul>
-								</div><!--End banner-content -->
-							</div><!--End col-sm-12 -->
-                        </div><!--End row -->
-                    </div><!--End container -->
-                </div><!--End display-table-cell -->
-            </div><!--End display-table -->
-        </div><!--End home-top-banner -->
+	<section id="home" class="home-slider home-top-banner image-bg">
+			<div id="particles-js"></div>		
+		<div id="home-carousel" class="owl-carousel">
+			<div class="owl-slide">
+				<div class="slider-content">
+					<div class="slider-caption">
+						<div class="caption-container">
+							<h2 class="banner-title-text"><span>Hi, I'm </span>Emma Jones</h2>
+							<h4>Proffessional &amp; Creative Director</h4>
+							<a class="btn btn-shutter-out-horizontal btn-transparent" href="contact.html">CONTACT</a>
+						</div><!-- end caption-container -->
+					</div><!-- end slider-caption -->
+				</div><!-- end slider-content -->
+			</div><!-- end owl-slide -->
+			<div class="owl-slide">
+				<div class="slider-content">
+					<div class="slider-caption">
+						<div class="caption-container">
+							<h2 class="banner-title-text"><span>Hi, I'm </span>Proffessional</h2>
+							<h4>Proffessional &amp; Creative Director</h4>
+							<a class="btn btn-shutter-out-horizontal btn-transparent" href="contact.html">CONTACT</a>
+						</div><!-- end caption-container -->
+					</div><!-- end slider-caption -->
+				</div><!-- end slider-content -->
+			</div><!-- end owl-slide -->
+			<div class="owl-slide">
+				<div class="slider-content">
+					<div class="slider-caption">
+						<div class="caption-container">
+							<h2 class="banner-title-text"><span>Hi, I'm </span>Creative Director</h2>
+							<h4>From United States</h4>
+							<a class="btn btn-shutter-out-horizontal btn-transparent" href="contact.html">CONTACT</a>
+						</div><!-- end caption-container -->
+					</div><!-- end slider-caption -->
+				</div><!-- end slider-content -->
+			</div><!-- end owl-slide -->
+		</div><!--End owl-carousel -->		
 	</section>
-	<!-- end slider and home section -->
+	<!-- end slider section -->
 	
 	<!-- start About section -->
-	<section id="about" class="about about-timeline-style">
+	<section id="about" class="about about-box-style">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -169,7 +147,7 @@
 				<div class="col-sm-12">
 					<div class="nav-tab-menu">
 						<ul class="nav nav-tabs">
-							<li class="active"><a data-toggle="tab" data-target="#tab1" aria-expanded="true">
+							<li class=""><a data-toggle="tab" data-target="#tab1" aria-expanded="false">
 								<i class="fa fa-paper-plane-o"></i>
 								<span class="tab-title text-bold">Experience</span>
 							</a></li>
@@ -181,155 +159,137 @@
 								<i class="fa fa-trophy"></i>
 								<span class="tab-title text-bold">Award</span>
 							</a></li>
-							<li class=""><a data-toggle="tab" data-target="#tab4" aria-expanded="false">
+							<li class="active"><a data-toggle="tab" data-target="#tab4" aria-expanded="true">
 								<i class="fa fa-diamond"></i>
 								<span class="tab-title text-bold">Skills</span>
 							</a></li>
 						</ul>
 					</div>
 					<div class="tab-content">
-						<div id="tab1" class="tab-pane fade active in">
-							<div class="icon-holder experience">
-								<i class="fa fa-paper-plane-o"></i>
-								<span class="tab-content-title text-bold">Experience</span>
+						<div id="tab1" class="tab-pane fade">
+							<!-- start title-box -->
+							<div class="title-box">
+								<h3 class="sub-title">Work <strong>Experience</strong></h3>
 							</div>
-							<ul class="timeline">
-								<li class="timeline-right">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date-inverted">Dec 2016 - Current</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+							<!-- end title-box -->
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">Dec 2016 - Current</p>
+										<div class="experience-content-box">
 											<h4>MGS PVT. LTD.</h4>
 											<h5>Creative Director</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!--end timeline-panel -->
-								</li><!-- end timeline-right -->
-								<li class="timeline-left">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>								
-										<p class="date">Oct 2015 - Nov 2016</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">Oct 2015 - Nov 2016</p>
+										<div class="experience-content-box">
 											<h4>MGS PVT. LTD.</h4>
 											<h5>Senior Designer </h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-left -->
-								<li class="timeline-right">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date-inverted">Sep 2013 - Sep 2015</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">Sep 2013 - Sep 2015</p>
+										<div class="experience-content-box">
 											<h4>MGS PVT. LTD.</h4>
 											<h5>Designer</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-right -->
-							</ul><!-- end timeline -->
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+							</div><!-- end row -->
 						</div>
 						<div id="tab2" class="tab-pane fade">
-							<div class="icon-holder education">
-								<i class="fa fa-graduation-cap"></i>
-								<span class="tab-content-title text-bold">Education</span>
+							<!-- start title-box -->
+							<div class="title-box">
+								<h3 class="sub-title">My <strong>Education</strong></h3>
 							</div>
-							<ul class="timeline">
-								<li class="timeline-left">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date">2011 - 2012</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+							<!-- end title-box -->
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">2011 - 2012</p>
+										<div class="experience-content-box">
 											<h4>Master's Degree</h4>
 											<h5>College Name here</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!--end timeline-panel -->
-								</li><!-- end timeline-left -->
-								<li class="timeline-right">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>								
-										<p class="date-inverted">2007 - 2011</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">2007 - 2011</p>
+										<div class="experience-content-box">
 											<h4>Bachelor's Degree</h4>
 											<h5>Institute Name here</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-right -->
-								<li class="timeline-left">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date">2006 - 2007</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">2006 - 2007</p>
+										<div class="experience-content-box">
 											<h4>School Education</h4>
 											<h5>School Name here</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-left -->
-							</ul><!-- end timeline -->
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+							</div><!-- end row -->
 						</div>
 						<div id="tab3" class="tab-pane fade">
-							<div class="icon-holder education">
-								<i class="fa fa-trophy"></i>
-								<span class="tab-content-title text-bold">Award</span>
+							<!-- start title-box -->
+							<div class="title-box">
+								<h3 class="sub-title">My <strong>Award</strong></h3>
 							</div>
-							<ul class="timeline">
-								<li class="timeline-right">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date-inverted">May 2017</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+							<!-- end title-box -->
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">May 2017</p>
+										<div class="experience-content-box">
 											<h4>People Awards</h4>
 											<h5>Institute Name</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!--end timeline-panel -->
-								</li><!-- end timeline-right -->
-								<li class="timeline-left">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>								
-										<p class="date">April 2016</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">April 2016</p>
+										<div class="experience-content-box">
 											<h4>People Awards</h4>
 											<h5>Institute Name</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-left -->
-								<li class="timeline-right">
-									<div class="timeline-badge">
-										<i class="fa fa-calendar"></i>
-										<p class="date-inverted">August 2015</p>
-									</div><!-- end timeline-badge -->
-									<div class="timeline-panel">
-										<div class="experience-content">
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+								
+								<div class="col-sm-4">
+									<div class="experience-content">
+										<p class="range">August 2015</p>
+										<div class="experience-content-box">
 											<h4>People Awards</h4>
 											<h5>Institute Name</h5>
 											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks.</p>
 										</div>
-									</div><!-- end timeline-panel -->
-								</li><!-- end timeline-right -->
-							</ul><!-- end timeline -->
+									</div><!-- end experience-content -->
+								</div><!-- end col -->
+							</div><!-- end row -->
 						</div>
-						<div id="tab4" class="tab-pane fade">
+						<div id="tab4" class="tab-pane fade active in">
 							<div class="row">
 								<div class="progressbar-wrap">
 									<div class="col-xs-3">
@@ -376,7 +336,7 @@
 	<!-- end About section -->
 	
 	<!-- start service -->
-	<section id="service" class="service service-3-column parallax">
+	<section id="service" class="service service-style2 service-3-column parallax">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -658,7 +618,7 @@
 	<!-- end team -->
 	
 	<!-- start portfolio -->
-	<section id="portfolio" class="filter-section portfolio-style2 parallax">
+	<section id="portfolio" class="filter-section parallax">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -670,7 +630,7 @@
 					</div>
 					<!-- end section title-wrap -->
 					<div class="intro-text text-center">
-						A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my heart.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin orci nunc, fringilla nec elit nec, pellentesque maximus eros. 
 					</div><!-- end intro-text -->
 				</div><!-- end col -->	
 				<div class="col-sm-12">
@@ -688,7 +648,7 @@
 				<div class="col-sm-12">	
 					<div class="row">
 						<div class="isotopeContainer">
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector websites">
+							<div class="col-md-3 col-xs-6 isotopeSelector websites">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/1.jpg" alt="Portfolio Title">									
 									<div class="portfolio-overlay">
@@ -706,7 +666,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector photography">
+							<div class="col-md-3 col-xs-6 isotopeSelector photography">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/2.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -724,7 +684,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector art">
+							<div class="col-md-3 col-xs-6 isotopeSelector art">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/3.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -742,7 +702,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector photography">
+							<div class="col-md-3 col-xs-6 isotopeSelector photography">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/4.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -760,7 +720,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector websites">
+							<div class="col-md-3 col-xs-6 isotopeSelector websites">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/5.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -778,7 +738,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector illustrations">
+							<div class="col-md-3 col-xs-6 isotopeSelector illustrations">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/6.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -796,7 +756,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector art">
+							<div class="col-md-3 col-xs-6 isotopeSelector art">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/7.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -814,7 +774,7 @@
 									</div><!--End portfolio-overlay -->
 								</div><!--End portfolio-wrapper -->
 							</div>
-							<div class="col-md-3 col-xs-6 no-space isotopeSelector illustrations">
+							<div class="col-md-3 col-xs-6 isotopeSelector illustrations">
 								<div class="portfolio-wrapper">
 									<img src="images/portfolio/thumb/8.jpg" alt="Portfolio Title">
 									<div class="portfolio-overlay">
@@ -834,14 +794,14 @@
 							</div>
 						</div><!--End isotopeContainer -->
 					</div>	
-				</div>  <!--End col-sm-12 -->  
+				</div>  <!--End col-sm-12 -->
 			</div><!-- end row -->
 		</div><!--End container -->
 	</section>
 	<!-- end portfolio -->
 	
 	<!-- start Pricing Plan 14 -->
-	<section id="pricingtable" class="pricing">
+	<section id="pricingtable" class="pricing pricing-style2">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -1615,8 +1575,9 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<!-- Bootstrap Js -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- jquery.vide Js -->
-	<script src="js/jquery.vide.js"></script>
+	<!-- Particles JS -->
+	<script src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
 	<!-- Circle Progress Js -->
 	<script src="js/circle-progress.js"></script>
 	<!-- Isotope Filtring Js -->
