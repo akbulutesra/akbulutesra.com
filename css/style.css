@@ -296,7 +296,7 @@ a img.logo-color  {
     z-index: 1;
 }
 .home-top-banner::after {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     content: "";
     height: 100%;
     left: 0;
