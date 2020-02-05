@@ -195,7 +195,7 @@ a:focus {
 }
 .main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li a.active {
 	color: #fff;
-    background-color: #DEDE12;
+    background-color: #B80011;
 }
 .menu-bg {
     background-color: #fff;
@@ -217,7 +217,7 @@ a img.logo-color  {
     background-color: #f0f0f0;
 }
 .main-menu .navbar-nav li a.menubgactive:hover {
-    background-color: #DEDE12;
+    background-color: #B80011;
 }
 
 /* navbar-toggle responsive menu */
@@ -678,11 +678,11 @@ a img.logo-color  {
     color: #000;
 }
 #about .button-holder .btn.btn-shutter-out-horizontal:last-child::before {
-    background-color: #DEDE12;
+    background-color: #B80011;
 }
 #about .button-holder .btn.btn-shutter-out-horizontal:last-child:hover {
     color: #fff;
-    border-color: #DEDE12;
+    border-color: #B80011;
 }
 #about .button-holder {
     margin: 50px 0;
@@ -1390,8 +1390,8 @@ ul.filter > li > a {
     padding: 6px 12px;
 }
 ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
-	background-color: #DEDE12;
-	border-color: #DEDE12;
+	background-color: #B80011;
+	border-color: #B80011;
     color: #fff;
     text-decoration:none;
     outline:none
@@ -1749,7 +1749,7 @@ ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
     color: #222;
 }
 #blog .post-meta a:hover, .post-meta a:hover {
-    color: #DEDE12;
+    color: #B80011;
 }
 #blog .post-wrap {
 	background-color: transparent;
@@ -1780,7 +1780,7 @@ ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
 	padding: 15px;
 }
 #blog .post-wrap:hover  .post-meta {
-    background-color: #DEDE12;
+    background-color: #B80011;
     color: #fff;
 	border-radius: 0 0 20px 5px;
 }
@@ -1800,7 +1800,7 @@ ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
     margin: 0 0 30px;
 }
 #blog a.btn-more {
-    color: #04b962;
+    color: #B80011;
 	display: inline-block;
     padding: 0 5px;
 }
@@ -3018,7 +3018,7 @@ aside#sidebar .title-box {
 	padding: 6px 20px;
 }
 .btn-shutter-out-horizontal {
-    background-color: #DEDE12;
+    background-color: #B80011;
     -webkit-box-shadow: 0 0 1px transparent;
     box-shadow: 0 0 1px transparent;
 	color: #fff;
@@ -3192,7 +3192,7 @@ aside#sidebar .title-box {
     width: 40px;
 }
 .footer h4.widget-title span {
-	color: #DEDE12;
+	color: #B80011;
 }
 .footer .recent-post li {
     margin: 0 0 20px;
@@ -3255,7 +3255,7 @@ a.footer-site-link {
 
 .scrollup {
     bottom: 40px;
-	color: #04b962;
+	color: #B80011;
     display: none;
     font-size: 42px;
     height: 40px;
