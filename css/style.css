@@ -321,7 +321,7 @@ a img.logo-color  {
 	background-size: cover;
 }
 .home-top-banner.banner-2 {
-	background-image: url("../images/profile/banner-image-2.jpg");
+	background-image: url("../media/resim.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -378,8 +378,8 @@ a img.logo-color  {
 	height: 100vh;
     width: 100%;
 }
-#home.home-slider.image-bg {
-    background-image: url("../images/profile/banner-image-2.jpg");
+#home.image-bg {
+    background-image: url("../media/resim.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
