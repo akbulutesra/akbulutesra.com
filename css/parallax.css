@@ -44,7 +44,8 @@
 |----------------------------------------------------------------------------
 */
 #portfolio.parallax {
-    background-image: url("../images/background/bg-2.jpg");
+/*    background-image: url("../images/background/bg-2.jpg");*/
+    background-color: white;
 }
 
 /*

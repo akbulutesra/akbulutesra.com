@@ -1495,6 +1495,7 @@ ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
     width: 0;
     z-index: 3;
 }
+/*
 .portfolio-wrapper:hover .portfolio-overlay::before {
     border-right: 1px solid #fff;
     border-top: 1px solid #fff;
@@ -1525,6 +1526,7 @@ ul.filter > li.active a, ul.filter > li > a:hover,ul.filter > li > a:focus {
     transform: scale(1);
     opacity: 1;
 }
+*/
 
 
 .light-bg ul.filter > li > a {
