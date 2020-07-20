@@ -3294,3 +3294,7 @@ blockquote {
 .bottomMargin0 {
     margin-bottom: 0;
 }
+
+.isotopeSelector {
+    height: 380px;
+}
